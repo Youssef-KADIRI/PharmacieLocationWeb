@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Localisation des pharmacies
+Ce projet a pour but de mettre en place une interface permettant de localiser les pharmacies une ville choisie ainsi que les zones de cette dernière.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Fonctionnalités
+1.  Gestion des villes (ajout, affichage modification, suppression)
+2.  Gestion des zones (ajout, affichage modification, suppression)
+3.  Gestion des gardes (ajout, affichage modification, suppression)
+4.  Validation des pharmacies
+5.  Visualisation des pharmacies acceptées, les pharmacies refusées, les pharmacies en attentes
+6.  Affichage de la localisation d'une pharmacie dans une map
+7.  Filtrage des pharmacies par ville et par zone un tableau
+8.  Filtrage des pharmacies par ville et par zone une map
+9.  Affichage de l'historique de garde d'une pharmacie
+10. Affichage de nombre de pharmacies par ville et par zone dans des graphes
 
-## Available Scripts
+# Mise en place du projet
+Pour mettre en place ce projet, vous aurez besoin des éléments suivants :
 
-In the project directory, you can run:
+1. Le back-end (à le tétécharger d'aprés GitHub : https://github.com/MouhibMoughtanim/PharmacieAPI)
+2. Un éditeur de code (comme Visual Studio Code)
 
-### `npm start`
+# Déploiement
+Pour déployer ce projet sur votre serveur d'application, suivez les étapes suivantes :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Téléchargez le projet sur votre ordinateur
+2. Ouvrez-le dans votre éditeur de code Visual Studio Code
+3. Lancer le back-end
+4. Lancer le projet en tapant la commande "npm start"
+5. Ouvrez votre navigateur et accédez à l'application en entrant l'URL suivante : http://localhost:3000/pharmacie
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Auteur
+Ce projet a été réalisé par KADIRI Youssef.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
